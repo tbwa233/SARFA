@@ -10,7 +10,7 @@ The Segment Anything Model (SAM) has demonstrated strong generalizability across
 
 ## Model
 
-![Figure](https://github.com/tbwa233/SARFA/blob/main/images/sarfa_fig.png?raw=true)
+![Figure](https://github.com/tbwa233/SARFA/blob/main/images/sarfa_final.png)
 
 ## Results
 
