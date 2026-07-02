@@ -33,7 +33,7 @@ A brief summary of our results are below. Our proposed SARFA methods is compared
 | **SARFA (ours)** | **0.206** | **2.758** | **0.659** | **0.774** |
 
 <p align="left">
-  <img src="https://github.com/tbwa233/SARFA/blob/main/images/sarfa_results.png" width="482.5">
+  <img src="https://github.com/tbwa233/SARFA/blob/main/images/sarfa_results.png" width="485">
 </p>
 
 ## Code
