@@ -12,6 +12,8 @@ The Segment Anything Model (SAM) has demonstrated strong generalizability across
 
 ![Figure](https://github.com/tbwa233/SARFA/blob/main/images/sarfa_final.png)
 
+A probabilistic prompt generator produces diverse prompt embeddings that enable LoRA-adapted SAM to generate K candidate segmentation masks for each input image. Masked regions from both ground truth and predicted candidates are passed through a radiomic feature extraction pipeline, and their similarity is quantified using FRD. The radiomic distances are used to rank masks, defining preferred and rejected candidates for our DPO loss, which encourages anatomically and texturally consistent medical image segmentation.
+
 ## Results
 
 ## Code
