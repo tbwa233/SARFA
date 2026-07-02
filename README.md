@@ -18,4 +18,6 @@ A probabilistic prompt generator produces diverse prompt embeddings that enable 
 
 ## Code
 
+The code has been written in Python using the PyTorch framework. Training requries a GPU. We provide a Jupyter Notebook, which can be run in Google Colab, containing the algorithm in a usable version. Open SARFA.ipynb and run it through.
+
 ## Citation
