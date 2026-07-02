@@ -32,6 +32,8 @@ A brief summary of our results are below. Our proposed SARFA methods is compared
 | P<sup>2</sup>SAM | 0.353 | 3.648 | 0.654 | 0.772 |
 | **SARFA (ours)** | **0.206** | **2.758** | **0.659** | **0.774** |
 
+![Figure](https://github.com/tbwa233/SARFA/blob/main/images/sarfa_results.png)
+
 ## Code
 
 The code has been written in Python using the PyTorch framework. Training requries a GPU. We provide a Jupyter Notebook, which can be run in Google Colab, containing the algorithm in a usable version. Open SARFA.ipynb and run it through.
