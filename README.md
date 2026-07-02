@@ -16,6 +16,22 @@ A probabilistic prompt generator produces diverse prompt embeddings that enable 
 
 ## Results
 
+A brief summary of our results are below. Our proposed SARFA methods is compared to existing baselines for probabilistic baselines. For brevity, we only include results on the LIDC-IDRI CT dataset here, although additional results on the BraTS2017 MRI dataset can be found in our paper.
+
+| Method | GED ↓ | FRD ↓ | HM-IoU ↑ | D<sub>max</sub> ↑ |
+|---|---:|---:|---:|---:|
+| Probabilistic U-Net | 0.324 | -- | 0.423 | 0.370 |
+| HPU-Net | 0.270 | -- | 0.530 | -- |
+| PHiseg | 0.262 | -- | 0.595 | -- |
+| SSN | 0.259 | -- | 0.555 | -- |
+| CAR | 0.252 | -- | 0.549 | 0.732 |
+| PixelSeg | 0.243 | -- | 0.614 | 0.814 |
+| CIMD | 0.234 | -- | 0.587 | -- |
+| Mose | 0.234 | -- | 0.623 | 0.702 |
+| SAMed | 0.380 | -- | 0.357 | 0.703 |
+| P<sup>2</sup>SAM | 0.353 | 3.648 | 0.654 | 0.772 |
+| **SARFA (ours)** | **0.206** | **2.758** | **0.659** | **0.774** |
+
 ## Code
 
 The code has been written in Python using the PyTorch framework. Training requries a GPU. We provide a Jupyter Notebook, which can be run in Google Colab, containing the algorithm in a usable version. Open SARFA.ipynb and run it through.
